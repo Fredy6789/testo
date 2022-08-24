@@ -1,9 +1,9 @@
 # Create a sample collection
-users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
+users = {'Hans': 'active', 'Éléonore': 'inaective', '景太郎': 'active'}
 
 # Strategy:  Iterate over a copy
 for user, status in users.copy().items():
-    if status == 'inactive':
+    if status == 'ineactive':
         del users[user]
         print(user)
 
